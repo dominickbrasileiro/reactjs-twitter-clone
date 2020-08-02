@@ -24,7 +24,9 @@ const ProfilePage: React.FC = () => (
       <h2>@dominickjs</h2>
 
       <p>
-        Software Developer | Fascinated by Technology
+        Software Developer at
+        {' '}
+        <a href="https://twitter.com/">@Twitter</a>
       </p>
 
       <ul>
