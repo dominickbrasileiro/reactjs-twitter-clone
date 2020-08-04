@@ -19,7 +19,7 @@ export default createGlobalStyle`
   *, button, input {
     border: 0;
     background: none;
-    font-family: ---apple-system, system-ui, sans-serif;
+    font-family: --apple-system, system-ui, sans-serif;
   }
 
   html {
