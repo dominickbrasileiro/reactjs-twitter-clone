@@ -1,3 +1,4 @@
+/* eslint-disable react/no-array-index-key */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -19,7 +20,6 @@ const List: React.FC<Props> = ({ title, elements }) => (
     </Item>
 
     {elements.map((element, index) => (
-      // eslint-disable-next-line react/no-array-index-key
       <Item key={index}>
         {element}
       </Item>
